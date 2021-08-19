@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <title>HTML</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <style>
-     
-     /* h1 { 
+
+     h1 { 
         color: orange;
         width: 65%;
         font-family: 'Helvetica', sans-serif;
@@ -43,17 +36,4 @@
 
      .color-third-item {
          background-color: brown;
-     } */
-
-    </style>
-  </head>
-  <body>
-    <h1>Exercícios 3.2</h1>
-    <p class="change-backgroundcolor">Qual é a sua cor favorita?</p>
-    <ul class="change-backgroundcolor">
-      <li class="color-first-item">Amarelo</li>
-      <li class="color-second-item">Vermelho</li>
-      <li class="color-third-item">Marrom</li>
-    </ul>
-  </body>
-</html>
+     }
