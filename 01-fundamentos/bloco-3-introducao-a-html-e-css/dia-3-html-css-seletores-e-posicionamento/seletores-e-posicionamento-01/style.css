@@ -1,0 +1,15 @@
+p, h1 {
+    text-align: center;
+}
+
+li:hover {
+    background-color: blue;
+}
+
+li:active{
+    text-transform: uppercase;
+}
+
+ol, ul {
+    list-style: none;
+}
