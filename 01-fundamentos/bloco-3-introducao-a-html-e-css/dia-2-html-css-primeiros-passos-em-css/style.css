@@ -1,0 +1,39 @@
+
+     h1 { 
+        color: orange;
+        width: 65%;
+        font-family: 'Helvetica', sans-serif;
+    }
+ 
+     ul {
+         background-color: blue;
+         font-style: italic;
+         text-align: left;
+         line-height: 30px;
+         
+     }
+
+     .change-backgroundcolor {
+         background-color: green;
+     }
+
+     body {
+         font-size: 16px;
+     }
+
+     p{
+         font-size: 3em;
+         text-decoration: blue;
+     }
+     
+     .color-first-item {
+        background-color: yellow;
+     }
+
+     .color-second-item {
+        background-color: red;
+     }
+
+     .color-third-item {
+         background-color: brown;
+     }
