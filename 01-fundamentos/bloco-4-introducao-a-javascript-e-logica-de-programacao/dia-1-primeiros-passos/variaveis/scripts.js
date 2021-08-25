@@ -1,6 +1,6 @@
 let myName = "Erik"; 
-let birthCity = "Rio de Janeiro";
-let birthYear = "1991";
+let birthCity = "São Paulo";
+let birthYear = 2030;
 
 console.log(myName);
 console.log(birthCity);
