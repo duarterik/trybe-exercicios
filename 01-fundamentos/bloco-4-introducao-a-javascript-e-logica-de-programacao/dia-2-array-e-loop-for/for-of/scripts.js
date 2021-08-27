@@ -1,15 +1,5 @@
-//Utilize o for para imprimir os elementos da lista groceryList com o console.log() :
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
-let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
-
-for (let index = 0; index < groceryList.length; index += 1) {
-    console.log(groceryList[index]);
-}
-
-//Utilize o for/of para imprimir os elementos da lista names com o console.log() :
-
-let names = ['João', 'Maria', 'Antônio', 'Margarida'];
-
-for (elementos of names) {
-    console.log(elementos)
+for (let index = 0; index < numbers.lenght; index += 1) {
+    console.log(numbers[index]);
 }
