@@ -16,9 +16,11 @@
 <!-- Adicione o atributo autofocus para o campo de email. -->
 
  <form action="" method="GET">
-  <input type="email" placeholder="Digite seu email" required autocomplete="off" autofocus name="email">
+  <label for="">Digite seu email:</label>
+  <label for="">Digite sua senha:</label>
+  <input type="email" placeholder="Digite seu email" required autocomplete="off" id="digita-email" autofocus name="email">
 <br>
-  <input type="password" placeholder="Digite sua senha" required name="senha">
+  <input type="password" placeholder="Digite sua senha" id="digita-senha" required name="senha">
 <br>
   <input type="checkbox"> Lembre-me.
 <br>
