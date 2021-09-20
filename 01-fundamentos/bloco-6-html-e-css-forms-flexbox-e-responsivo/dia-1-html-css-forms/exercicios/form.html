@@ -15,7 +15,7 @@
   </header>
 
   <form action="" method="get" enctype="multipart/form-data" id="form-cv">
-   <div ="form-row">
+   <div class="form-row">
     <fieldset>
      <div class="line-content"> 
        <label for="input-name">Nome:</label>
@@ -56,8 +56,21 @@
     </div>
 
     </fieldset>
+  </div>
 
-    
+  <div class="form-row">
+    <fieldset>
+      <div class="line-content">
+        <label for="resumo-cv">Resumo do Currículo</label>
+        <textarea id="resumo-cv" name="resumo-cv" rows="5" cols="30" maxlength="1000" placeholder="Escreva aqui o seu resumo" required></textarea>
+      </div>
+
+      <div class="line-content">
+        <label for="cargo">Cargo:</label>
+        <input type="text" name="cargo" id="cargo" maxlength="40" placeholder="Digite seu cargo" required>
+      </div>
+
+    </fieldset>
   </div>
   </form>
 
