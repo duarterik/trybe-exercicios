@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixação</title>
+</head>
+<body>
+<!-- Adicione os campos de entrada para email e senha. -->
+<!-- Adicione um checkbox com o texto Lembre-me . -->
+<!-- Adicione um botão com o texto Entrar . -->
+<!-- Adicione os placeholder Digite seu email e Digite sua senha para os campos de email e senha. -->
+<!-- Adicione o atributo required para os campos de email e senha. -->
+<!-- Adicione o atributo autocomplete="off" para o campo de email. -->
+<!-- Adicione o atributo autofocus para o campo de email. -->
+
+ <form action="" method="GET" enctype="multipart/form-data">
+  <label for="digita-email">Digite seu email:
+  <input type="email" placeholder="Digite seu email" required autocomplete="off" id="digita-email" autofocus name="email"></label>
+<br>
+  <label for="digita-senha">Digite sua senha:
+  <input type="password" placeholder="Digite sua senha" id="digita-senha" required name="senha">
+<br></label>
+  <input type="checkbox"> Lembre-me.
+<br>
+  <button type="submit">Entrar</button>
+ </form>
+</body>
+</html>
