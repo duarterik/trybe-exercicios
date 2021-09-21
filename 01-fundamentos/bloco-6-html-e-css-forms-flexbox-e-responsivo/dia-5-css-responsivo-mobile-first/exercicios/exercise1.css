@@ -22,3 +22,9 @@ figure {
 p {
   font-size: large;
 }
+
+@media screen and (max-width: 600px) {
+ 
+
+
+}
