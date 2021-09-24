@@ -18,3 +18,14 @@ const sortOddsAndEvens = () => {
 
 const sortedArray = sortOddsAndEvens();
 console.log(`Os números ${sortedArray} se encontram ordenados de forma crescente !`);
+
+
+const oddsAndEvensCrescente = arr => {
+  let arraySortido = arr.sort((a,b) => a-b)
+  return  `Os números ${arraySortido} se encontram ordenados de forma crescente!`  
+}
+
+console.log(oddsAndEvensCrescente(oddsAndEvens));
+
+
+
